@@ -40,19 +40,9 @@
                 font-style="italic" letter-spacing="10" fill="var(--accent)">
             MONTE CARLO
           </text>
-          <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle"
-                font-family="'Fragor', 'Georgia', serif" font-size="13"
-                font-style="italic" letter-spacing="14" fill="var(--muted)">
-            EST. MMXXIV
-          </text>
         </svg>
-        <div class="logo__line"></div>
+      
       </div>
-      <p class="hero__tagline reveal reveal--delay-1"
-         data-es="Rock y Alma desde las Profundidades"
-         data-en="Rock &amp; Soul from the Underground">
-        Rock y Alma desde las Profundidades
-      </p>
       <a href="#tour" class="btn reveal reveal--delay-2"
          data-es="Ver Fechas de Gira"
          data-en="See Tour Dates">
@@ -63,27 +53,30 @@
   </section>
 
   <!-- TOUR -->
-  <section class="section tour" id="tour">
-    <h2 class="section__title reveal"
-        data-es="Fechas de Gira"
-        data-en="Tour Dates">
-      Fechas de Gira
-    </h2>
-    <div class="tour__list" id="tourList"></div>
-    <div class="tour__more-wrap" id="tourMoreWrap" hidden>
-      <button class="btn tour__more-btn" id="tourMoreBtn"
-              data-es="Ver más fechas" data-en="Load more dates">
-        Ver más fechas
-      </button>
-      <button class="btn btn--ghost tour__collapse-btn" id="tourCollapseBtn"
-              data-es="Ver menos" data-en="Show less" hidden>
-        Ver menos
-      </button>
+  <section class="tour" id="tour">
+    <div class="tour__inner">
+      <h2 class="section__title reveal"
+          data-es="Fechas de Gira"
+          data-en="Tour Dates">
+        Fechas de Gira
+      </h2>
+      <div class="tour__list" id="tourList"></div>
+      <div class="tour__more-wrap" id="tourMoreWrap" hidden>
+        <button class="btn tour__more-btn" id="tourMoreBtn"
+                data-es="Ver más fechas" data-en="Load more dates">
+          Ver más fechas
+        </button>
+        <button class="btn btn--ghost tour__collapse-btn" id="tourCollapseBtn"
+                data-es="Ver menos" data-en="Show less" hidden>
+          Ver menos
+        </button>
+      </div>
     </div>
   </section>
 
   <!-- MERCH -->
-  <section class="section merch" id="merch">
+  <section class="merch" id="merch">
+    <div class="merch__inner">
     <h2 class="section__title reveal"
         data-es="Merch"
         data-en="Merch">
@@ -135,6 +128,7 @@
         </div>
       </div>
 
+    </div>
     </div>
   </section>
 

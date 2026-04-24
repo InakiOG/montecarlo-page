@@ -20,7 +20,8 @@
 .members-header__label {
   font-size: 0.7rem;
   letter-spacing: 0.35em;
-  color: var(--accent2);
+  color: var(--neon);
+  text-shadow: 0 0 10px rgba(47, 255, 126, 0.5);
   text-transform: uppercase;
 }
 .members-header__title {
@@ -91,13 +92,17 @@
   position: absolute;
   inset: -12px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(200, 55, 45, 0.18) 0%, transparent 70%);
+  background: radial-gradient(circle,
+    rgba(47, 255, 126, 0.12) 0%,
+    rgba(200, 55, 45, 0.10) 50%,
+    transparent 70%
+  );
   animation: photo-pulse 5s ease-in-out infinite;
   z-index: 0;
 }
 @keyframes photo-pulse {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50%       { opacity: 1;   transform: scale(1.06); }
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50%       { opacity: 1;    transform: scale(1.07); }
 }
 
 /* Info */
@@ -111,7 +116,8 @@
   font-size: 0.65rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--accent2);
+  color: var(--neon);
+  text-shadow: 0 0 8px rgba(47, 255, 126, 0.5);
 }
 .member__name {
   font-size: clamp(1.4rem, 2.5vw, 2rem);
@@ -147,8 +153,9 @@
   height: 16px;
 }
 .member__social-link:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--neon);
+  color: var(--neon);
+  box-shadow: 0 0 12px rgba(47, 255, 126, 0.3);
   transform: translateY(-3px);
 }
 

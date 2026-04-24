@@ -14,6 +14,7 @@
   --border:   #2e1010;
   --accent:   #c8372d;
   --accent2:  #d4612a;
+  --neon:     #c8ff98;
   --text:     #f0e0dc;
   --muted:    #8a5a56;
   --radius:   4px;
@@ -221,7 +222,8 @@ ul { list-style: none; }
   height: 16px;
 }
 .nav__social:hover {
-  color: var(--accent);
+  color: var(--neon);
+  filter: drop-shadow(0 0 4px rgba(47, 255, 126, 0.6));
   transform: translateY(-2px);
 }
 
@@ -292,7 +294,8 @@ ul { list-style: none; }
 .logo__line {
   width: 60px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--accent2), transparent);
+  background: linear-gradient(90deg, transparent, var(--neon), transparent);
+  box-shadow: 0 0 8px 2px rgba(47, 255, 126, 0.5);
   animation: line-expand 1.4s ease forwards;
   transform-origin: center;
   transform: scaleX(0);
@@ -311,8 +314,9 @@ ul { list-style: none; }
   bottom: 2.5rem;
   left: 50%;
   transform: translateX(-50%);
-  color: var(--muted);
+  color: var(--neon);
   font-size: 1.2rem;
+  text-shadow: 0 0 10px rgba(47, 255, 126, 0.7);
   animation: bounce 2s ease-in-out infinite;
 }
 @keyframes bounce {
@@ -340,11 +344,41 @@ ul { list-style: none; }
   display: block;
   width: 40px;
   height: 1px;
-  background: var(--accent2);
+  background: var(--neon);
+  box-shadow: 0 0 8px 2px rgba(47, 255, 126, 0.45);
   margin-top: 0.6rem;
 }
 
 /* ── Tour ───────────────────────────────────────────────── */
+.tour {
+  position: relative;
+  width: 100%;
+  background:
+    linear-gradient(180deg,
+      rgba(20,  5,  5, 0.0)   0%,
+      rgba(120, 15, 10, 0.30) 70%,
+      rgba(160, 20, 14, 0.55) 100%
+    ),
+    var(--bg);
+  padding: 7rem 0;
+}
+.tour::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(200, 55, 45, 0.6) 30%,
+    rgba(200, 55, 45, 0.6) 70%,
+    transparent 100%
+  );
+}
+.tour__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
 .tour__list {
   display: flex;
   flex-direction: column;
@@ -370,7 +404,8 @@ ul { list-style: none; }
 .tour__month {
   font-size: 0.65rem;
   letter-spacing: 0.2em;
-  color: var(--accent2);
+  color: var(--neon);
+  text-shadow: 0 0 6px rgba(47, 255, 126, 0.6);
   text-transform: uppercase;
 }
 .tour__day {
@@ -399,6 +434,35 @@ ul { list-style: none; }
 }
 
 /* ── Merch ──────────────────────────────────────────────── */
+.merch {
+  position: relative;
+  width: 100%;
+  background:
+    linear-gradient(180deg,
+      rgba(160, 20, 14, 0.55)  0%,
+      rgba(120, 15, 10, 0.30) 30%,
+      rgba(20,  5,  5, 0.0)  100%
+    ),
+    var(--bg);
+  padding: 7rem 0;
+}
+.merch::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(200, 55, 45, 0.6) 30%,
+    rgba(200, 55, 45, 0.6) 70%,
+    transparent 100%
+  );
+}
+.merch__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
 .merch__grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -412,7 +476,8 @@ ul { list-style: none; }
 }
 .merch__card:hover {
   transform: translateY(-6px);
-  border-color: var(--accent2);
+  border-color: var(--neon);
+  box-shadow: 0 0 18px rgba(47, 255, 126, 0.12);
 }
 .merch__img {
   aspect-ratio: 1;
@@ -443,8 +508,9 @@ ul { list-style: none; }
 }
 .merch__price {
   font-size: 0.8rem;
-  color: var(--accent2);
+  color: var(--neon);
   letter-spacing: 0.1em;
+  text-shadow: 0 0 6px rgba(47, 255, 126, 0.4);
 }
 
 
@@ -473,6 +539,10 @@ ul { list-style: none; }
   .nav { padding: 1rem 1.5rem; }
   .nav__links { gap: 1.5rem; }
   .section { padding: 5rem 1.5rem; }
+  .tour  { padding: 5rem 0; }
+  .merch { padding: 5rem 0; }
+  .tour__inner  { padding: 0 1.5rem; }
+  .merch__inner { padding: 0 1.5rem; }
   .tour__item { flex-wrap: wrap; gap: 1rem; }
   .merch__grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .nav__socials { display: none; }
