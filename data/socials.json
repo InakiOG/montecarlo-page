@@ -1,0 +1,32 @@
+{
+  "socials": [
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "handle": "@montecarloband",
+      "url": "https://www.instagram.com/monte.carlo.mx/",
+      "icon": "instagram"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "handle": "@montecarloband",
+      "url": "https://www.tiktok.com/@montecarlo.mx",
+      "icon": "tiktok"
+    },
+    {
+      "id": "spotify",
+      "label": "Spotify",
+      "handle": "Monte Carlo",
+      "url": "https://open.spotify.com/artist/7IQKn1xlyJJ6hHTP2nrq0K?si=kxLPT9SoR_G52qg1hXgzCg",
+      "icon": "spotify"
+    },
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "handle": "Monte Carlo Official",
+      "url": "https://www.youtube.com/@montecarlomx",
+      "icon": "youtube"
+    }
+  ]
+}

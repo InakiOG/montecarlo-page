@@ -1,0 +1,132 @@
+{
+  "dates": [
+    {
+      "isoDate": "2026-10-01",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "01",
+      "venue": "VENUE",
+      "city": "Leon, GTO",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/leon-oct-01"
+    },
+    {
+      "isoDate": "2026-10-02",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "02",
+      "venue": "VENUE",
+      "city": "Queretaro, QRO",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/queretaro-oct-02"
+    },
+    {
+      "isoDate": "2026-10-03",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "03",
+      "venue": "VENUE",
+      "city": "Guadalajara, JAL",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/guadalajara-oct-03"
+    },
+    {
+      "isoDate": "2026-10-04",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "04",
+      "venue": "VENUE",
+      "city": "Zapopan, JAL",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/zapopan-oct-04"
+    },
+    {
+      "isoDate": "2026-10-08",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "08",
+      "venue": "VENUE",
+      "city": "Chihuahua, CHH",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/chihuahua-oct-08"
+    },
+    {
+      "isoDate": "2026-10-09",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "09",
+      "venue": "VENUE",
+      "city": "Ciudad Juarez, CHH",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/ciudad-juarez-oct-09"
+    },
+    {
+      "isoDate": "2026-10-10",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "10",
+      "venue": "VENUE",
+      "city": "Tijuana, BCN",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/tijuana-oct-10"
+    },
+    {
+      "isoDate": "2026-10-15",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "15",
+      "venue": "VENUE",
+      "city": "Toluca, MEX",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/toluca-oct-15"
+    },
+    {
+      "isoDate": "2026-10-16",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "16",
+      "venue": "VENUE",
+      "city": "Puebla, PUE",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/puebla-oct-16"
+    },
+    {
+      "isoDate": "2026-10-17",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "17",
+      "venue": "VENUE",
+      "city": "Ciudad de Mexico, CDMX",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/cdmx-oct-17"
+    },
+    {
+      "isoDate": "2026-10-18",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "18",
+      "venue": "VENUE",
+      "city": "Ecatepec o Neza, Edo. Mex.",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/edomex-oct-18"
+    },
+    {
+      "isoDate": "2026-10-22",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "22",
+      "venue": "VENUE",
+      "city": "Merida, YUC",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/merida-oct-22"
+    },
+    {
+      "isoDate": "2026-10-24",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "24",
+      "venue": "VENUE",
+      "city": "Monterrey, NLE",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-24"
+    },
+    {
+      "isoDate": "2026-10-25",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "25",
+      "venue": "VENUE",
+      "city": "Monterrey, NLE",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-25"
+    },
+    {
+      "isoDate": "2026-10-30",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "30",
+      "venue": "VENUE",
+      "city": "Guadalajara o Ciudad de Mexico",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/bonus-oct-30"
+    },
+    {
+      "isoDate": "2026-10-31",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "31",
+      "venue": "VENUE",
+      "city": "Guadalajara o Ciudad de Mexico",
+      "ticketsUrl": "https://shop.montecarloband.com/tickets/halloween-oct-31"
+    }
+  ]
+}

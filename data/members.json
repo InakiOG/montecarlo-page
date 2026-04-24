@@ -1,0 +1,49 @@
+{
+  "members": [
+    {
+      "id": "guitar-voice",
+      "name": "Nombre",
+      "role": { "es": "Guitarra & Voz", "en": "Guitar & Voice" },
+      "bio": {
+        "es": "Una breve descripción del integrante, su estilo y su historia con la banda.",
+        "en": "A short description of the member, their style, and their history with the band."
+      },
+      "photo": "",
+      "socials": [
+        { "platform": "instagram", "url": "https://instagram.com/" },
+        { "platform": "twitch",    "url": "https://twitch.tv/" },
+        { "platform": "youtube",   "url": "https://youtube.com/" }
+      ]
+    },
+    {
+      "id": "drums",
+      "name": "Nombre",
+      "role": { "es": "Batería", "en": "Drums" },
+      "bio": {
+        "es": "Una breve descripción del integrante, su estilo y su historia con la banda.",
+        "en": "A short description of the member, their style, and their history with the band."
+      },
+      "photo": "",
+      "socials": [
+        { "platform": "instagram", "url": "https://instagram.com/" },
+        { "platform": "twitch",    "url": "https://twitch.tv/" },
+        { "platform": "youtube",   "url": "https://youtube.com/" }
+      ]
+    },
+    {
+      "id": "bass",
+      "name": "Carlos Medina ('El Mochis')",
+      "role": { "es": "Bajo", "en": "Bass" },
+      "bio": {
+        "es": "El mas riatudo de la banda.",
+        "en": "The most riotous member of the band."
+      },
+      "photo": "",
+      "socials": [
+        { "platform": "instagram", "url": "https://instagram.com/" },
+        { "platform": "twitch",    "url": "https://twitch.tv/" },
+        { "platform": "youtube",   "url": "https://youtube.com/" }
+      ]
+    }
+  ]
+}

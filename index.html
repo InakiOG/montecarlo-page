@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monte Carlo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Page edge glow -->
+  <div class="edge-glow" aria-hidden="true">
+    <span class="edge-glow__left"></span>
+    <span class="edge-glow__right"></span>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">MONTE CARLO</div>
+    <ul class="nav__links">
+      <li><a href="#tour"      data-es="Gira"  data-en="Tour">Gira</a></li>
+      <li><a href="#merch"     data-es="Merch" data-en="Merch">Merch</a></li>
+      <li><a href="members.html" data-es="Banda" data-en="Band">Banda</a></li>
+    </ul>
+    <div class="nav__right">
+      <div class="nav__socials" id="navSocials"></div>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__content">
+      <div class="logo reveal">
+        <svg class="logo__svg" viewBox="-20 0 640 200" xmlns="http://www.w3.org/2000/svg"
+             aria-label="Monte Carlo" overflow="visible">
+          <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle"
+                font-family="'Fragor', 'Georgia', serif" font-size="80"
+                font-style="italic" letter-spacing="10" fill="var(--accent)">
+            MONTE CARLO
+          </text>
+          <text x="50%" y="82%" dominant-baseline="middle" text-anchor="middle"
+                font-family="'Fragor', 'Georgia', serif" font-size="13"
+                font-style="italic" letter-spacing="14" fill="var(--muted)">
+            EST. MMXXIV
+          </text>
+        </svg>
+        <div class="logo__line"></div>
+      </div>
+      <p class="hero__tagline reveal reveal--delay-1"
+         data-es="Rock y Alma desde las Profundidades"
+         data-en="Rock &amp; Soul from the Underground">
+        Rock y Alma desde las Profundidades
+      </p>
+      <a href="#tour" class="btn reveal reveal--delay-2"
+         data-es="Ver Fechas de Gira"
+         data-en="See Tour Dates">
+        Ver Fechas de Gira
+      </a>
+    </div>
+    <div class="hero__scroll-hint">&#8595;</div>
+  </section>
+
+  <!-- TOUR -->
+  <section class="section tour" id="tour">
+    <h2 class="section__title reveal"
+        data-es="Fechas de Gira"
+        data-en="Tour Dates">
+      Fechas de Gira
+    </h2>
+    <div class="tour__list" id="tourList"></div>
+    <div class="tour__more-wrap" id="tourMoreWrap" hidden>
+      <button class="btn tour__more-btn" id="tourMoreBtn"
+              data-es="Ver más fechas" data-en="Load more dates">
+        Ver más fechas
+      </button>
+      <button class="btn btn--ghost tour__collapse-btn" id="tourCollapseBtn"
+              data-es="Ver menos" data-en="Show less" hidden>
+        Ver menos
+      </button>
+    </div>
+  </section>
+
+  <!-- MERCH -->
+  <section class="section merch" id="merch">
+    <h2 class="section__title reveal"
+        data-es="Merch"
+        data-en="Merch">
+      Merch
+    </h2>
+    <div class="merch__grid">
+
+      <div class="merch__card reveal">
+        <div class="merch__img merch__img--tee">
+          <span class="merch__placeholder">TEE</span>
+        </div>
+        <div class="merch__details">
+          <p class="merch__name" data-es="Camiseta Logo — Negra" data-en="Logo Tee — Black">Camiseta Logo — Negra</p>
+          <p class="merch__price">$30</p>
+          <a href="#" class="btn btn--sm" data-es="Comprar" data-en="Buy">Comprar</a>
+        </div>
+      </div>
+
+      <div class="merch__card reveal reveal--delay-1">
+        <div class="merch__img merch__img--hoodie">
+          <span class="merch__placeholder">HOODIE</span>
+        </div>
+        <div class="merch__details">
+          <p class="merch__name" data-es="Sudadera Clásica" data-en="Classic Hoodie">Sudadera Clásica</p>
+          <p class="merch__price">$65</p>
+          <a href="#" class="btn btn--sm" data-es="Comprar" data-en="Buy">Comprar</a>
+        </div>
+      </div>
+
+      <div class="merch__card reveal reveal--delay-2">
+        <div class="merch__img merch__img--vinyl">
+          <span class="merch__placeholder">VINYL</span>
+        </div>
+        <div class="merch__details">
+          <p class="merch__name" data-es='LP Debut — 12"' data-en='Debut LP — 12"'>LP Debut — 12"</p>
+          <p class="merch__price">$28</p>
+          <a href="#" class="btn btn--sm" data-es="Comprar" data-en="Buy">Comprar</a>
+        </div>
+      </div>
+
+      <div class="merch__card reveal reveal--delay-3">
+        <div class="merch__img merch__img--hat">
+          <span class="merch__placeholder">GORRA</span>
+        </div>
+        <div class="merch__details">
+          <p class="merch__name" data-es="Gorra 5 Paneles" data-en="5-Panel Cap">Gorra 5 Paneles</p>
+          <p class="merch__price">$35</p>
+          <a href="#" class="btn btn--sm" data-es="Comprar" data-en="Buy">Comprar</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer__logo">MONTE CARLO</p>
+    <p class="footer__copy"
+       data-es="&copy; 2026 Monte Carlo. Todos los derechos reservados."
+       data-en="&copy; 2026 Monte Carlo. All rights reserved.">
+      &copy; 2026 Monte Carlo. Todos los derechos reservados.
+    </p>
+  </footer>
+
+  <script src="socials.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
