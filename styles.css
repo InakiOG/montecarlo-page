@@ -261,6 +261,21 @@ ul { list-style: none; }
   justify-content: center;
   overflow: hidden;
 }
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 180px;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    rgba(12, 7, 7, 0) 0%,
+    rgba(16, 8, 8, 0.72) 58%,
+    rgba(16, 8, 8, 1) 100%
+  );
+}
 .hero__bg {
   position: absolute;
   inset: 0;
@@ -373,8 +388,9 @@ ul { list-style: none; }
   width: 100%;
   background:
     linear-gradient(180deg,
-      rgba(20,  5,  5, 0.0)   0%,
-      rgba(120, 15, 10, 0.30) 70%,
+      rgba(16,  8,  8, 1)    0%,
+      rgba(55, 11,  9, 0.72) 34%,
+      rgba(120, 15, 10, 0.35) 72%,
       rgba(160, 20, 14, 0.55) 100%
     ),
     var(--bg);
