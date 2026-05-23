@@ -210,6 +210,18 @@ ul { list-style: none; }
 .nav__links a:hover { color: var(--accent); }
 
 .nav__right {
+/* Per-letter logo hover glow */
+.logo__svg text { pointer-events: visiblePainted; }
+.logo__svg .logo__char {
+  transition: fill 0.18s ease, filter 0.22s ease, transform 0.18s ease;
+  cursor: default;
+}
+.logo__svg .logo__char:hover {
+  fill: var(--neon);
+  filter: drop-shadow(0 0 18px rgba(47,255,126,0.9));
+  transform: translateY(-4px) scale(1.02);
+}
+.logo__svg .logo__char:active { transform: translateY(-2px) scale(1.01); }
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -261,6 +273,24 @@ ul { list-style: none; }
   justify-content: center;
   overflow: hidden;
 }
+.hero::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 4px;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(200, 55, 45, 0.65) 25%,
+    rgba(220, 90, 40, 0.9) 50%,
+    rgba(200, 55, 45, 0.65) 75%,
+    transparent 100%
+  );
+  box-shadow: 0 0 18px rgba(220,100,45,0.45), 0 1px 0 rgba(255,255,255,0.03) inset;
+  z-index: 3;
+}
 .hero::after {
   content: '';
   position: absolute;
@@ -269,6 +299,7 @@ ul { list-style: none; }
   bottom: 0;
   height: 180px;
   pointer-events: none;
+  z-index: 2;
   background: linear-gradient(
     180deg,
     rgba(12, 7, 7, 0) 0%,
