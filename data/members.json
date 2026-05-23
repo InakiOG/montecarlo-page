@@ -2,32 +2,32 @@
   "members": [
     {
       "id": "guitar-voice",
-      "name": "Nombre",
+      "name": "Ricardo Alcaraz",
       "role": { "es": "Guitarra & Voz", "en": "Guitar & Voice" },
       "bio": {
-        "es": "Una breve descripción del integrante, su estilo y su historia con la banda.",
-        "en": "A short description of the member, their style, and their history with the band."
+        "es": "Fundador de la banda, conocido por su contenido en youtube, papá del Apollo.",
+        "en": "Founder of the band, known for his YouTube content, father of Apollo."
       },
       "photo": "",
       "socials": [
-        { "platform": "instagram", "url": "https://instagram.com/" },
-        { "platform": "twitch",    "url": "https://twitch.tv/" },
-        { "platform": "youtube",   "url": "https://youtube.com/" }
+        { "platform": "instagram", "url": "https://www.instagram.com/ricardoalcaraz/" },
+        { "platform": "twitch",    "url": "https://www.twitch.tv/ricardoalcarazz" },
+        { "platform": "youtube",   "url": "https://www.youtube.com/c/RicardoAlcaraz" }
       ]
     },
     {
       "id": "drums",
-      "name": "Nombre",
+      "name": "Daniel Nuño (DNL)",
       "role": { "es": "Batería", "en": "Drums" },
       "bio": {
-        "es": "Una breve descripción del integrante, su estilo y su historia con la banda.",
-        "en": "A short description of the member, their style, and their history with the band."
+        "es": "Conocido por su energía en los conciertos, sus gritos al jugar juegos de terror y su estilo extravagante.",
+        "en": "Known for their energy at live performances, their screams while playing horror games, and their extravagant style."
       },
       "photo": "",
       "socials": [
-        { "platform": "instagram", "url": "https://instagram.com/" },
-        { "platform": "twitch",    "url": "https://twitch.tv/" },
-        { "platform": "youtube",   "url": "https://youtube.com/" }
+        { "platform": "instagram", "url": "https://www.instagram.com/its.me.dnl/" },
+        { "platform": "twitch",    "url": "https://www.twitch.tv/danielnunoavina" },
+        { "platform": "youtube",   "url": "https://www.youtube.com/@its_me_dnl" }
       ]
     },
     {
@@ -35,14 +35,12 @@
       "name": "Carlos Medina ('El Mochis')",
       "role": { "es": "Bajo", "en": "Bass" },
       "bio": {
-        "es": "El mas riatudo de la banda.",
-        "en": "The most riotous member of the band."
+        "es": "Exponente del norteñocore, conocido por sus recomendaciones musicales y ser el único ingeniero de la banda.",
+        "en": "Exponent of norteñocore, known for his music recommendations and for being the band's only engineer."
       },
       "photo": "",
       "socials": [
-        { "platform": "instagram", "url": "https://instagram.com/" },
-        { "platform": "twitch",    "url": "https://twitch.tv/" },
-        { "platform": "youtube",   "url": "https://youtube.com/" }
+        { "platform": "instagram", "url": "https://www.instagram.com/carlos_el_mochis/" }
       ]
     }
   ]
