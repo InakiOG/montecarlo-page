@@ -8,6 +8,9 @@ const MEMBER_ICONS = {
     <path d="M4 2L2 6v14h5v2h3l2-2h3l4-4V2H4zm15 9l-3 3h-3l-2 2v-2H7V4h12v7z"/>
     <path d="M10 7H8v5h2V7zm5 0h-2v5h2V7z"/>
   </svg>`,
+  tiktok: `<svg viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.28 6.28 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+  </svg>`,
   youtube: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
     <rect x="2" y="5" width="20" height="14" rx="3"/>
     <polygon points="10,9 16,12 10,15" fill="currentColor" stroke="none"/>

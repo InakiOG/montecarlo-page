@@ -40,7 +40,8 @@
       },
       "photo": "",
       "socials": [
-        { "platform": "instagram", "url": "https://www.instagram.com/carlos_el_mochis/" }
+        { "platform": "instagram", "url": "https://www.instagram.com/carlos_el_mochis/" },
+        { "platform": "tiktok",    "url": "https://www.tiktok.com/@el_mochisss" }
       ]
     }
   ]
