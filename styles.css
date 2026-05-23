@@ -324,11 +324,25 @@ ul { list-style: none; }
   align-items: center;
   gap: 0.5rem;
 }
+.logo { transform: translateX(-2%); }
 .logo__svg {
   width: min(980px, 98vw);
   height: auto;
   filter: drop-shadow(0 0 24px rgba(200, 55, 45, 0.4));
   animation: logo-glow 4s ease-in-out infinite;
+}
+/* Desktop logo sizing & centering */
+.logo__svg .logo__text--top,
+.logo__svg .logo__text--bottom {
+  font-size: 108px;
+  text-anchor: middle;
+  line-height: 0.95;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+/* Add a small vertical offset to increase inter-line spacing */
+.logo__svg .logo__text--bottom {
+  transform: translateY(8px);
 }
 @keyframes logo-glow {
   0%, 100% { filter: drop-shadow(0 0 20px rgba(200, 55, 45, 0.35)); }
