@@ -163,6 +163,15 @@ ul { list-style: none; }
   color: var(--text);
 }
 
+.btn--disabled,
+.btn--disabled:hover {
+  border-color: var(--border);
+  color: var(--muted);
+  background: transparent;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 /* ── Nav ────────────────────────────────────────────────── */
 .nav {
   position: fixed;
@@ -349,6 +358,15 @@ ul { list-style: none; }
   margin-top: 0.6rem;
 }
 
+.section__status {
+  font-size: 0.68rem;
+  letter-spacing: 0.28em;
+  color: var(--neon);
+  text-transform: uppercase;
+  margin-bottom: 0.85rem;
+  text-shadow: 0 0 8px rgba(47, 255, 126, 0.35);
+}
+
 /* ── Tour ───────────────────────────────────────────────── */
 .tour {
   position: relative;
@@ -422,6 +440,21 @@ ul { list-style: none; }
   font-size: 0.8rem;
   color: var(--muted);
   letter-spacing: 0.1em;
+}
+
+.tour__action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.45rem;
+}
+
+.tour__status {
+  font-size: 0.62rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--neon);
+  text-shadow: 0 0 8px rgba(47, 255, 126, 0.3);
 }
 
 .tour__more-wrap {
@@ -544,6 +577,7 @@ ul { list-style: none; }
   .tour__inner  { padding: 0 1.5rem; }
   .merch__inner { padding: 0 1.5rem; }
   .tour__item { flex-wrap: wrap; gap: 1rem; }
+  .tour__action { align-items: flex-start; }
   .merch__grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .nav__socials { display: none; }
 }
