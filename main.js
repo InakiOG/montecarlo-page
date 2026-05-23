@@ -50,7 +50,7 @@ async function loadTourDates() {
   const collapseBtn = document.getElementById('tourCollapseBtn');
 
   try {
-    const res = await fetch('data/tour.json');
+    const res = await fetch(`data/tour.json?v=${Date.now()}`, { cache: 'no-store' });
     const { dates } = await res.json();
 
     const today = new Date();
