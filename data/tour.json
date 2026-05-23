@@ -25,14 +25,6 @@
       "ticketsUrl": "https://shop.montecarloband.com/tickets/guadalajara-oct-03"
     },
     {
-      "isoDate": "2026-10-04",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "04",
-      "venue": "TBC",
-      "city": "Morelia, MICH",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/morelia-oct-04"
-    },
-    {
       "isoDate": "2026-10-08",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "08",
@@ -105,14 +97,6 @@
       "ticketsUrl": "https://shop.montecarloband.com/tickets/merida-oct-22"
     },
     {
-      "isoDate": "2026-10-23",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "23",
-      "venue": "Halloween",
-      "city": "Monterrey, NLE",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-23"
-    },
-    {
       "isoDate": "2026-10-24",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "24",
@@ -124,25 +108,9 @@
       "isoDate": "2026-10-25",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "25",
-      "venue": "Nodriza (2da fecha)",
+      "venue": "Nodriza Estudio",
       "city": "Monterrey, NLE",
       "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-25"
-    },
-    {
-      "isoDate": "2026-10-30",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "30",
-      "venue": "Halloween",
-      "city": "Guadalajara, JAL",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/guadalajara-oct-30"
-    },
-    {
-      "isoDate": "2026-10-31",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "31",
-      "venue": "Halloween",
-      "city": "Ciudad de México, CDMX",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/halloween-oct-31"
     }
   ]
 }
