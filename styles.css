@@ -325,7 +325,7 @@ ul { list-style: none; }
   gap: 0.5rem;
 }
 .logo__svg {
-  width: min(580px, 90vw);
+  width: min(980px, 98vw);
   height: auto;
   filter: drop-shadow(0 0 24px rgba(200, 55, 45, 0.4));
   animation: logo-glow 4s ease-in-out infinite;
@@ -373,6 +373,11 @@ ul { list-style: none; }
   transform: translateY(-6px) scale(1.04);
 }
 .logo__svg .logo__char:active { transform: translateY(-3px) scale(1.02); }
+
+.logo__text--top,
+.logo__text--bottom {
+  dominant-baseline: middle;
+}
 .hero__scroll-hint {
   position: absolute;
   bottom: 2.5rem;
@@ -618,6 +623,7 @@ ul { list-style: none; }
   color: var(--accent);
 }
 .footer__copy {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.7rem;
   color: var(--muted);
   letter-spacing: 0.1em;
@@ -636,4 +642,17 @@ ul { list-style: none; }
   .tour__action { align-items: flex-start; }
   .merch__grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .nav__socials { display: none; }
+  .logo__svg {
+    width: min(500px, 96vw);
+  }
+  .logo__svg .logo__text--top,
+  .logo__svg .logo__text--bottom {
+    font-size: 96px !important;
+    letter-spacing: 0.5px;
+  }
+  .hero .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.66rem;
+    letter-spacing: 0.16em;
+  }
 }
