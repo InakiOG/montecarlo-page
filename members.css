@@ -126,6 +126,7 @@
   font-weight: 400;
 }
 .member__bio {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 0.82rem;
   color: var(--muted);
   line-height: 1.7;
@@ -162,6 +163,10 @@
 /* Active nav link */
 .nav__link--active {
   color: var(--accent) !important;
+}
+
+.footer__copy {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ── Responsive ─────────────────────────────────────────── */
