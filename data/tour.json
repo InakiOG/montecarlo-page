@@ -36,7 +36,7 @@
       "isoDate": "2026-10-09",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "09",
-      "venue": "A Centenario",
+      "venue": "La 45 Cervecería",
       "city": "Ciudad Juárez, CHH",
       "ticketsUrl": "https://shop.montecarloband.com/tickets/ciudad-juarez-oct-09"
     },
@@ -81,14 +81,6 @@
       "ticketsUrl": "https://shop.montecarloband.com/tickets/cdmx-oct-17"
     },
     {
-      "isoDate": "2026-10-18",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "18",
-      "venue": "Foro 246 (Show íntimo)",
-      "city": "Ciudad de México, CDMX",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/cdmx-oct-18"
-    },
-    {
       "isoDate": "2026-10-22",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "22",
@@ -103,14 +95,6 @@
       "venue": "Nodriza Estudio",
       "city": "Monterrey, NLE",
       "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-24"
-    },
-    {
-      "isoDate": "2026-10-25",
-      "month": { "es": "OCT", "en": "OCT" },
-      "day": "25",
-      "venue": "Nodriza Estudio",
-      "city": "Monterrey, NLE",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-25"
     }
   ]
 }
