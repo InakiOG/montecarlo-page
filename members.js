@@ -17,6 +17,33 @@ const MEMBER_ICONS = {
   </svg>`
 };
 
+const MEMBER_PHOTOS = [
+  {
+    src: 'resources/123A4304.jpg',
+    alt: 'Monte Carlo photo 123A4304',
+    rotate: '-7deg',
+    offsetY: '10px'
+  },
+  {
+    src: 'resources/123A4161.jpg',
+    alt: 'Monte Carlo photo 123A4161',
+    rotate: '4deg',
+    offsetY: '-6px'
+  },
+  {
+    src: 'resources/123A4138.jpg',
+    alt: 'Monte Carlo photo 123A4138',
+    rotate: '-2deg',
+    offsetY: '18px'
+  }
+];
+
+const photoModal = document.getElementById('photoModal');
+const photoModalImage = document.getElementById('photoModalImage');
+const memberGalleryGrid = document.getElementById('memberGalleryGrid');
+const photoModalClose = photoModal?.querySelector('.photo-modal__close');
+const photoModalBackdrop = photoModal?.querySelector('.photo-modal__backdrop');
+
 // Nav scroll class
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
@@ -49,6 +76,36 @@ langToggle.addEventListener('click', () => {
 window.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
   loadMembers();
+  loadGalleryPhotos();
+});
+
+function openPhotoModal(src, alt) {
+  if (!photoModal || !photoModalImage) return;
+
+  photoModalImage.src = src;
+  photoModalImage.alt = alt;
+  photoModal.classList.add('is-open');
+  photoModal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('photo-modal-open');
+}
+
+function closePhotoModal() {
+  if (!photoModal || !photoModalImage) return;
+
+  photoModal.classList.remove('is-open');
+  photoModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('photo-modal-open');
+  photoModalImage.removeAttribute('src');
+  photoModalImage.alt = '';
+}
+
+photoModalClose?.addEventListener('click', closePhotoModal);
+photoModalBackdrop?.addEventListener('click', closePhotoModal);
+
+window.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && photoModal?.classList.contains('is-open')) {
+    closePhotoModal();
+  }
 });
 
 async function loadMembers() {
@@ -102,4 +159,30 @@ async function loadMembers() {
   } catch (err) {
     console.error('Could not load members:', err);
   }
+}
+
+function loadGalleryPhotos() {
+  if (!memberGalleryGrid) return;
+
+  memberGalleryGrid.innerHTML = MEMBER_PHOTOS.map((photo, index) => `
+    <button
+      type="button"
+      class="gallery-photo reveal reveal--delay-${(index % 3) + 1}"
+      style="--photo-rotate: ${photo.rotate}; --photo-offset-y: ${photo.offsetY};"
+      aria-label="Abrir ${photo.alt}"
+      data-src="${photo.src}"
+      data-alt="${photo.alt}"
+    >
+      <span class="gallery-photo__frame">
+        <img src="${photo.src}" alt="${photo.alt}" />
+      </span>
+    </button>
+  `).join('');
+
+  memberGalleryGrid.querySelectorAll('.gallery-photo').forEach(photo => {
+    revealObserver.observe(photo);
+    photo.addEventListener('click', () => {
+      openPhotoModal(photo.dataset.src, photo.dataset.alt);
+    });
+  });
 }

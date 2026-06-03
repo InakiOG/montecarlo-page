@@ -8,7 +8,7 @@
         "es": "Fundador de la banda, conocido por su contenido en youtube, papá del Apollo.",
         "en": "Founder of the band, known for his YouTube content, father of Apollo."
       },
-      "photo": "",
+      "photo": "resources/ricardo profile.jpg",
       "socials": [
         { "platform": "instagram", "url": "https://www.instagram.com/ricardoalcaraz/" },
         { "platform": "twitch",    "url": "https://www.twitch.tv/ricardoalcarazz" },
@@ -23,7 +23,7 @@
         "es": "Conocido por su energía en los conciertos, sus gritos al jugar juegos de terror y su estilo extravagante.",
         "en": "Known for their energy at live performances, their screams while playing horror games, and their extravagant style."
       },
-      "photo": "",
+      "photo": "resources/dnl profile.jpg",
       "socials": [
         { "platform": "instagram", "url": "https://www.instagram.com/its.me.dnl/" },
         { "platform": "twitch",    "url": "https://www.twitch.tv/danielnunoavina" },
@@ -32,13 +32,13 @@
     },
     {
       "id": "bass",
-      "name": "Carlos Medina ('El Mochis')",
+      "name": "Carlos Medina (El Mochis)",
       "role": { "es": "Bajo", "en": "Bass" },
       "bio": {
         "es": "Exponente del norteñocore, conocido por sus recomendaciones musicales y ser el único ingeniero de la banda.",
         "en": "Exponent of norteñocore, known for his music recommendations and for being the band's only engineer."
       },
-      "photo": "",
+      "photo": "resources/mochis profile.jpg",
       "socials": [
         { "platform": "instagram", "url": "https://www.instagram.com/carlos_el_mochis/" },
         { "platform": "tiktok",    "url": "https://www.tiktok.com/@el_mochisss" }

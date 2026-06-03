@@ -41,6 +41,19 @@
   <!-- MEMBERS -->
   <main class="members-grid" id="membersGrid"></main>
 
+  <!-- PHOTO GALLERY -->
+  <section class="member-gallery" id="memberGallery">
+    <div class="member-gallery__grid" id="memberGalleryGrid"></div>
+  </section>
+
+  <div class="photo-modal" id="photoModal" aria-hidden="true">
+    <button class="photo-modal__backdrop" type="button" aria-label="Cerrar imagen"></button>
+    <div class="photo-modal__dialog" role="document" aria-label="Vista ampliada de foto">
+      <button class="photo-modal__close" type="button" aria-label="Cerrar imagen">×</button>
+      <img id="photoModalImage" alt="" />
+    </div>
+  </div>
+
   <!-- FOOTER -->
   <footer class="footer">
     <p class="footer__logo">MONTE CARLO</p>
