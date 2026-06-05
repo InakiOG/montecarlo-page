@@ -6,7 +6,7 @@
       "day": "01",
       "venue": "Foro Alder",
       "city": "León, GTO",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/leon-oct-01"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
       "isoDate": "2026-10-02",
@@ -14,7 +14,7 @@
       "day": "02",
       "venue": "Sala Arpa",
       "city": "Querétaro, QRO",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/queretaro-oct-02"
+      "ticketsUrl": "https://t3.arema.mx/e/17949"
     },
     {
       "isoDate": "2026-10-03",
@@ -22,7 +22,7 @@
       "day": "03",
       "venue": "C3 Rooftop",
       "city": "Guadalajara, JAL",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/guadalajara-oct-03"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
       "isoDate": "2026-10-08",
@@ -30,7 +30,7 @@
       "day": "08",
       "venue": "Don Burro",
       "city": "Chihuahua, CHH",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/chihuahua-oct-08"
+      "ticketsUrl": "https://t3.arema.mx/e/20176"
     },
     {
       "isoDate": "2026-10-09",
@@ -46,7 +46,7 @@
       "day": "10",
       "venue": "Foro Nebraska",
       "city": "Tijuana, BCN",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/tijuana-oct-10"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
       "isoDate": "2026-10-11",
@@ -62,7 +62,7 @@
       "day": "15",
       "venue": "Foro Lando",
       "city": "Toluca, MEX",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/toluca-oct-15"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
       "isoDate": "2026-10-16",
@@ -70,7 +70,7 @@
       "day": "16",
       "venue": "Sala Sonar",
       "city": "Puebla, PUE",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/puebla-oct-16"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
       "isoDate": "2026-10-17",
@@ -86,7 +86,7 @@
       "day": "22",
       "venue": "Casa Nohoch",
       "city": "Mérida, YUC",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/merida-oct-22"
+      "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-merida-fantasma-tour"
     },
     {
       "isoDate": "2026-10-24",
@@ -94,7 +94,7 @@
       "day": "24",
       "venue": "Nodriza Estudio",
       "city": "Monterrey, NLE",
-      "ticketsUrl": "https://shop.montecarloband.com/tickets/monterrey-oct-24"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     }
   ]
 }
