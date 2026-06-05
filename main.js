@@ -99,11 +99,8 @@ async function loadTourDates() {
           <p class="tour__city">${show.city}</p>
         </div>
         <div class="tour__action">
-          <p class="tour__status" data-es="PROXIMAMENTE" data-en="COMING SOON">
-            ${currentLang === 'es' ? 'PROXIMAMENTE' : 'COMING SOON'}
-          </p>
-          <a href="${show.ticketsUrl}" class="btn btn--sm btn--disabled" target="_blank" rel="noopener"
-             aria-disabled="true" tabindex="-1" data-es="Entradas" data-en="Tickets">
+          <a href="${show.ticketsUrl}" class="btn btn--sm" target="_blank" rel="noopener"
+             data-es="Entradas" data-en="Tickets">
             ${currentLang === 'es' ? 'Entradas' : 'Tickets'}
           </a>
         </div>
