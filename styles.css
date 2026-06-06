@@ -510,11 +510,13 @@ ul { list-style: none; }
 .tour__venue {
   font-size: 1rem;
   font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .tour__city {
   font-size: 0.8rem;
   color: var(--muted);
   letter-spacing: 0.1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .tour__action {
