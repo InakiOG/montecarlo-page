@@ -1,6 +1,11 @@
 {
   "dates": [
     {
+      "title": "Experiencia Monte Carlo",
+      "description": "Meet and Greet con Monte Carlo",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG"
+    },
+    {
       "isoDate": "2026-10-01",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "01",

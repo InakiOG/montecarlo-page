@@ -56,8 +56,11 @@ async function loadTourDates() {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
+    const mgShow = dates.find(s => !s.isoDate);
+    if (mgShow) renderMgCard(mgShow);
+
     tourShows = dates
-      .filter(s => new Date(s.isoDate) >= today)
+      .filter(s => s.isoDate && new Date(s.isoDate) >= today)
       .sort((a, b) => new Date(a.isoDate) - new Date(b.isoDate));
 
     renderPage();
@@ -78,6 +81,26 @@ async function loadTourDates() {
 
   } catch (err) {
     console.error('Could not load tour dates:', err);
+  }
+
+  function renderMgCard(show) {
+    const wrap = document.getElementById('tourMgWrap');
+    wrap.innerHTML = `
+      <div class="tour__mg-card reveal">
+        <div class="tour__mg-info">
+          <p class="tour__mg-label" data-es="Experiencia" data-en="Experience">Experiencia</p>
+          <p class="tour__mg-title">${show.title}</p>
+          <p class="tour__mg-desc">${show.description}</p>
+        </div>
+        <div class="tour__action">
+          <a href="${show.ticketsUrl}" class="btn btn--sm" target="_blank" rel="noopener"
+             data-es="Entradas" data-en="Tickets">
+            ${currentLang === 'es' ? 'Entradas' : 'Tickets'}
+          </a>
+        </div>
+      </div>
+    `;
+    observeReveal(wrap.querySelectorAll('.reveal'));
   }
 
   function renderPage() {
