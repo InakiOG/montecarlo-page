@@ -614,54 +614,56 @@ ul { list-style: none; }
   margin: 0 auto;
   padding: 0 3rem;
 }
-.merch__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 2rem;
-}
-.merch__card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  transition: transform 0.3s, border-color 0.3s;
-}
-.merch__card:hover {
-  transform: translateY(-6px);
-  border-color: var(--neon);
-  box-shadow: 0 0 18px rgba(47, 255, 126, 0.12);
-}
-.merch__img {
+.merch__coming-soon {
+  position: relative;
+  width: min(420px, 100%);
   aspect-ratio: 1;
+  margin: 0 auto;
+  border: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.65rem;
+  overflow: hidden;
+}
+
+.merch__coming-soon::before,
+.merch__coming-soon::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.merch__coming-soon::before {
+  background: linear-gradient(
+    to bottom right,
+    transparent calc(50% - 0.5px),
+    var(--border) calc(50% - 0.5px),
+    var(--border) calc(50% + 0.5px),
+    transparent calc(50% + 0.5px)
+  );
+}
+
+.merch__coming-soon::after {
+  background: linear-gradient(
+    to bottom left,
+    transparent calc(50% - 0.5px),
+    var(--border) calc(50% - 0.5px),
+    var(--border) calc(50% + 0.5px),
+    transparent calc(50% + 0.5px)
+  );
+}
+
+.merch__coming-soon-text {
+  position: relative;
+  z-index: 1;
+  font-size: 0.7rem;
   letter-spacing: 0.3em;
-  color: var(--muted);
-}
-.merch__img--tee    { background: #180b0b; }
-.merch__img--hoodie { background: #150d0d; }
-.merch__img--vinyl  { background: #120808; }
-.merch__img--hat    { background: #170b0a; }
-.merch__placeholder {
-  border: 1px solid var(--border);
-  padding: 0.4rem 0.8rem;
   text-transform: uppercase;
-}
-.merch__details {
-  padding: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-.merch__name {
-  font-size: 0.9rem;
-}
-.merch__price {
-  font-size: 0.8rem;
-  color: var(--neon);
-  letter-spacing: 0.1em;
-  text-shadow: 0 0 6px rgba(47, 255, 126, 0.4);
+  color: var(--muted);
+  background: var(--bg);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--border);
 }
 
 
@@ -697,8 +699,7 @@ ul { list-style: none; }
   .merch__inner { padding: 0 1.5rem; }
   .tour__item { flex-wrap: wrap; gap: 1rem; }
   .tour__action { align-items: flex-start; }
-  .merch__grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-  .nav__socials { display: none; }
+.nav__socials { display: none; }
   .logo__svg {
     width: min(500px, 96vw);
   }
