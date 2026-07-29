@@ -121,7 +121,7 @@ async function loadMembers() {
       article.className = `member reveal${delays[i] ?? ''}`;
 
       const photoContent = member.photo
-        ? `<img src="${member.photo}" alt="${member.name}">`
+        ? `<img src="${member.photo}" alt="${member.name}" loading="lazy" decoding="async">`
         : `<span class="member__photo-placeholder">FOTO</span>`;
 
       const socialsHTML = member.socials.map(s => `
@@ -174,7 +174,7 @@ function loadGalleryPhotos() {
       data-alt="${photo.alt}"
     >
       <span class="gallery-photo__frame">
-        <img src="${photo.src}" alt="${photo.alt}" />
+        <img src="${photo.src}" alt="${photo.alt}" loading="lazy" decoding="async" />
       </span>
     </button>
   `).join('');
