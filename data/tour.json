@@ -86,6 +86,14 @@
       "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-mexico"
     },
     {
+      "isoDate": "2026-10-18",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "18",
+      "venue": "Casa Padi",
+      "city": "Pachuca de Soto, hgo",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/eventperformances.asp?evt=2606"
+    },
+    {
       "isoDate": "2026-10-22",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "22",
