@@ -108,6 +108,30 @@
       "venue": "Nodriza Estudio",
       "city": "Monterrey, NLE",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+    },
+    {
+      "isoDate": "2026-10-04",
+      "month": { "es": "OCT", "en": "OCT" },
+      "day": "04",
+      "venue": "Zoo Ags",
+      "city": "Aguascalientes, AGS",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenAguascalientes"
+    },
+    {
+      "isoDate": "2026-11-06",
+      "month": { "es": "NOV", "en": "NOV" },
+      "day": "06",
+      "venue": "Tierra Luna",
+      "city": "Xalapa, VER",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenXalapa"
+    },
+    {
+      "isoDate": "2026-11-07",
+      "month": { "es": "NOV", "en": "NOV" },
+      "day": "07",
+      "venue": "Casa Efecto Multiforo Cultural",
+      "city": "Veracruz, VER",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenVeracruz"
     }
   ]
 }
