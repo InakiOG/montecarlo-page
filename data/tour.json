@@ -132,6 +132,22 @@
       "venue": "Casa Efecto Multiforo Cultural",
       "city": "Veracruz, VER",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenVeracruz"
+    },
+    {
+      "isoDate": "2026-11-28",
+      "month": { "es": "NOV", "en": "NOV" },
+      "day": "28",
+      "venue": "El Búnker 57",
+      "city": "San Luis Potosí, SLP",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenSanLuisPotosi"
+    },
+    {
+      "isoDate": "2026-11-29",
+      "month": { "es": "NOV", "en": "NOV" },
+      "day": "29",
+      "venue": "Beat",
+      "city": "Morelia, MICH",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia"
     }
   ]
 }
