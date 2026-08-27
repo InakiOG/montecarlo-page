@@ -110,6 +110,8 @@ async function loadTourDates() {
     slice.forEach(show => {
       const item = document.createElement('div');
       item.className = 'tour__item reveal';
+      const labelEs = show.buttonLabel ? show.buttonLabel.es : 'Entradas';
+      const labelEn = show.buttonLabel ? show.buttonLabel.en : 'Tickets';
       item.innerHTML = `
         <div class="tour__date">
           <span class="tour__month" data-es="${show.month.es}" data-en="${show.month.en}">
@@ -127,12 +129,12 @@ async function loadTourDates() {
             ${currentLang === 'es' ? 'PROXIMAMENTE' : 'COMING SOON'}
           </p>
           <a class="btn btn--sm btn--disabled" aria-disabled="true" tabindex="-1"
-             data-es="Entradas" data-en="Tickets">
-            ${currentLang === 'es' ? 'Entradas' : 'Tickets'}
+             data-es="${labelEs}" data-en="${labelEn}">
+            ${currentLang === 'es' ? labelEs : labelEn}
           </a>` : `
           <a href="${show.ticketsUrl}" class="btn btn--sm" target="_blank" rel="noopener"
-             data-es="Entradas" data-en="Tickets">
-            ${currentLang === 'es' ? 'Entradas' : 'Tickets'}
+             data-es="${labelEs}" data-en="${labelEn}">
+            ${currentLang === 'es' ? labelEs : labelEn}
           </a>`}
         </div>
       `;
