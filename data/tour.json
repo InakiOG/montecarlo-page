@@ -140,7 +140,7 @@
       "venue": "El Búnker 57",
       "city": "San Luis Potosí, SLP",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenSanLuisPotosi",
-      "buttonLabel": { "es": "Entradas/Experiencia Montecarlo", "en": "Tickets/Montecarlo Experience" }
+      "buttonLabel": { "es": "Entradas<span style='font-family: Georgia, Times, serif;'>/</span>Experiencia Montecarlo", "en": "Tickets<span style='font-family: Georgia, Times, serif;'>/</span>Montecarlo Experience" }
     },
     {
       "isoDate": "2026-11-29",
@@ -149,7 +149,7 @@
       "venue": "Beat",
       "city": "Morelia, MICH",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia",
-      "buttonLabel": { "es": "Entradas/Experiencia Montecarlo", "en": "Tickets/Montecarlo Experience" }
+      "buttonLabel": { "es": "Entradas<span style='font-family: Georgia, Times, serif;'>/</span>Experiencia Montecarlo", "en": "Tickets<span style='font-family: Georgia, Times, serif;'>/</span>Montecarlo Experience" }
     }
   ]
 }
