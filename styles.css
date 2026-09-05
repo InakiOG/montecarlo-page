@@ -165,13 +165,13 @@ ul { list-style: none; }
 
 .btn--mg {
   border-color: var(--accent);
-  color: var(--accent);
+  color: var(--neon);
   background: rgba(200, 55, 45, 0.12);
   box-shadow: 0 0 14px rgba(47, 255, 126, 0.45);
 }
 .btn--mg:hover {
   background: var(--accent);
-  color: var(--bg);
+  color: var(--neon);
   box-shadow: 0 0 20px rgba(47, 255, 126, 0.7);
 }
 
