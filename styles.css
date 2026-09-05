@@ -155,13 +155,15 @@ ul { list-style: none; }
   font-size: 0.7rem;
 }
 .btn--ghost {
-  border-color: var(--accent);
+  border-color: var(--neon);
   color: var(--accent);
   background: rgba(200, 55, 45, 0.12);
+  box-shadow: 0 0 8px rgba(200, 255, 152, 0.5);
 }
 .btn--ghost:hover {
   background: var(--accent);
   color: var(--bg);
+  box-shadow: 0 0 12px rgba(200, 255, 152, 0.7);
 }
 
 .btn--disabled,
