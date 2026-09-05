@@ -1,17 +1,13 @@
 {
   "dates": [
     {
-      "title": "Experiencia Monte Carlo",
-      "description": "Meet and Greet con Monte Carlo",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG"
-    },
-    {
       "isoDate": "2026-10-01",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "01",
       "venue": "Foro Alder",
       "city": "León, GTO",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-02",
@@ -19,7 +15,8 @@
       "day": "02",
       "venue": "Sala Arpa",
       "city": "Querétaro, QRO",
-      "ticketsUrl": "https://t3.arema.mx/e/17949"
+      "ticketsUrl": "https://arema.mx/e/17949-monte-carlo-en-queretaro",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-03",
@@ -27,7 +24,8 @@
       "day": "03",
       "venue": "C3 Rooftop",
       "city": "Guadalajara, JAL",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-04",
@@ -35,7 +33,8 @@
       "day": "04",
       "venue": "Zoo Ags",
       "city": "Aguascalientes, AGS",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenAguascalientes"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenAguascalientes",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-09",
@@ -52,7 +51,8 @@
       "day": "10",
       "venue": "Foro Nebraska",
       "city": "Tijuana, BCN",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-11",
@@ -150,7 +150,7 @@
       "venue": "El Búnker 57",
       "city": "San Luis Potosí, SLP",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenSanLuisPotosi",
-      "buttonLabel": { "es": "Entradas<span style='font-family: Georgia, Times, serif;'>/</span>Experiencia Montecarlo", "en": "Tickets<span style='font-family: Georgia, Times, serif;'>/</span>Montecarlo Experience" }
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenSanLuisPotosi"
     },
     {
       "isoDate": "2026-11-29",
@@ -159,7 +159,7 @@
       "venue": "Beat",
       "city": "Morelia, MICH",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia",
-      "buttonLabel": { "es": "Entradas<span style='font-family: Georgia, Times, serif;'>/</span>Experiencia Montecarlo", "en": "Tickets<span style='font-family: Georgia, Times, serif;'>/</span>Montecarlo Experience" }
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia"
     }
   ]
 }
