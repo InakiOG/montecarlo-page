@@ -113,7 +113,7 @@ async function loadTourDates() {
              data-es="${labelEs}" data-en="${labelEn}">
             ${currentLang === 'es' ? labelEs : labelEn}
           </a>${show.mgTicketsUrl ? `
-          <a href="${show.mgTicketsUrl}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener"
+          <a href="${show.mgTicketsUrl}" class="btn btn--sm btn--mg" target="_blank" rel="noopener"
              data-es="Experiencia M&amp;G" data-en="Meet &amp; Greet">
             ${currentLang === 'es' ? 'Experiencia M&G' : 'Meet & Greet'}
           </a>` : ''}`}
