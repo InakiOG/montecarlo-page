@@ -135,7 +135,11 @@ async function loadTourDates() {
           <a href="${show.ticketsUrl}" class="btn btn--sm" target="_blank" rel="noopener"
              data-es="${labelEs}" data-en="${labelEn}">
             ${currentLang === 'es' ? labelEs : labelEn}
-          </a>`}
+          </a>${show.mgTicketsUrl ? `
+          <a href="${show.mgTicketsUrl}" class="btn btn--sm btn--ghost" target="_blank" rel="noopener"
+             data-es="Experiencia M&amp;G" data-en="Meet &amp; Greet">
+            ${currentLang === 'es' ? 'Experiencia M&G' : 'Meet & Greet'}
+          </a>` : ''}`}
         </div>
       `;
       list.appendChild(item);

@@ -30,20 +30,21 @@
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
     },
     {
-      "isoDate": "2026-10-08",
+      "isoDate": "2026-10-04",
       "month": { "es": "OCT", "en": "OCT" },
-      "day": "08",
-      "venue": "Don Burro",
-      "city": "Chihuahua, CHH",
-      "ticketsUrl": "https://t3.arema.mx/e/20176"
+      "day": "04",
+      "venue": "Zoo Ags",
+      "city": "Aguascalientes, AGS",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenAguascalientes"
     },
     {
       "isoDate": "2026-10-09",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "09",
-      "venue": "La 45 Cervecería",
-      "city": "Ciudad Juárez, CHH",
-      "ticketsUrl": "https://ventas.donboleton.com/eventperformances.asp?evt=3739"
+      "venue": "Por confirmar",
+      "city": "Ensenada, BCN",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenEnsenadaFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-10",
@@ -59,7 +60,8 @@
       "day": "11",
       "venue": "Rock City",
       "city": "Mexicali, BCN",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/eventperformances.asp?evt=2533"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-15",
@@ -67,7 +69,8 @@
       "day": "15",
       "venue": "Foro Lando",
       "city": "Toluca, MEX",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-16",
@@ -75,7 +78,8 @@
       "day": "16",
       "venue": "Sala Sonar",
       "city": "Puebla, PUE",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-17",
@@ -83,7 +87,8 @@
       "day": "17",
       "venue": "Foro La Paz",
       "city": "Ciudad de México, CDMX",
-      "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-mexico"
+      "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-mexico",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-18",
@@ -91,7 +96,8 @@
       "day": "18",
       "venue": "Casa Padi",
       "city": "Pachuca de Soto, hgo",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/eventperformances.asp?evt=2606"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenPachucaFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-22",
@@ -99,7 +105,8 @@
       "day": "22",
       "venue": "Casa Nohoch",
       "city": "Mérida, YUC",
-      "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-merida-fantasma-tour"
+      "ticketsUrl": "https://www.passline.com/eventos/monte-carlo-en-merida-fantasma-tour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-10-24",
@@ -107,15 +114,16 @@
       "day": "24",
       "venue": "Nodriza Estudio",
       "city": "Monterrey, NLE",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
-      "isoDate": "2026-10-04",
+      "isoDate": "2026-10-25",
       "month": { "es": "OCT", "en": "OCT" },
-      "day": "04",
-      "venue": "Zoo Ags",
-      "city": "Aguascalientes, AGS",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenAguascalientes"
+      "day": "25",
+      "venue": "Por confirmar",
+      "city": "Torreón, COAH",
+      "ticketsUrl": "PENDING"
     },
     {
       "isoDate": "2026-11-06",
@@ -123,7 +131,8 @@
       "day": "06",
       "venue": "Tierra Luna",
       "city": "Xalapa, VER",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenXalapa"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenXalapa",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-11-07",
@@ -131,7 +140,8 @@
       "day": "07",
       "venue": "Casa Efecto Multiforo Cultural",
       "city": "Veracruz, VER",
-      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenVeracruz"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenVeracruz",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloExperienciaMG2026"
     },
     {
       "isoDate": "2026-11-28",
