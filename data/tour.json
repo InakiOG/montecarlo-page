@@ -121,9 +121,10 @@
       "isoDate": "2026-10-25",
       "month": { "es": "OCT", "en": "OCT" },
       "day": "25",
-      "venue": "Por confirmar",
+      "venue": "Cafelina Café",
       "city": "Torreón, COAH",
-      "ticketsUrl": "PENDING"
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenTorreonFantasmaTour",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/orderticketsarea.asp?p=3050&a=2752&src=eventperformances&_ga="
     },
     {
       "isoDate": "2026-11-06",
