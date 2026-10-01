@@ -43,6 +43,13 @@ const PAGE_SIZE = 5;
 let tourShows  = [];
 let tourPage   = 0;
 
+// "YYYY-MM-DD" → local midnight (new Date("YYYY-MM-DD") would be UTC midnight,
+// which is the previous evening in Mexico and hides shows on their own day)
+function parseLocalDate(iso) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
 async function loadTourDates() {
   const list        = document.getElementById('tourList');
   const wrap        = document.getElementById('tourMoreWrap');
@@ -57,8 +64,8 @@ async function loadTourDates() {
     today.setHours(0, 0, 0, 0);
 
     tourShows = dates
-      .filter(s => s.isoDate && new Date(s.isoDate) >= today)
-      .sort((a, b) => new Date(a.isoDate) - new Date(b.isoDate));
+      .filter(s => s.isoDate && parseLocalDate(s.isoDate) >= today)
+      .sort((a, b) => parseLocalDate(a.isoDate) - parseLocalDate(b.isoDate));
 
     renderPage();
 
