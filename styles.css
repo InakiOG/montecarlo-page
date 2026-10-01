@@ -499,23 +499,6 @@ ul { list-style: none; }
 }
 .tour__item:first-child { border-top: 1px solid var(--border); }
 .tour__item:hover { background: rgba(200, 55, 45, 0.05); }
-/* Show happening today: pulsing glow, same soft green as the logo line */
-.tour__item--today {
-  padding-inline: 1rem;
-  border: 1px solid rgba(200, 255, 152, 0.45);
-  border-radius: var(--radius);
-  background: rgba(200, 255, 152, 0.04);
-  animation: today-glow 2.4s ease-in-out infinite;
-}
-.tour__item--today:first-child { border-top: 1px solid rgba(200, 255, 152, 0.45); }
-.tour__item--today .tour__day { color: var(--neon); text-shadow: 0 0 10px rgba(47, 255, 126, 0.6); }
-@keyframes today-glow {
-  0%, 100% { box-shadow: 0 0 10px rgba(47, 255, 126, 0.25), inset 0 0 12px rgba(47, 255, 126, 0.08); }
-  50%      { box-shadow: 0 0 26px rgba(47, 255, 126, 0.55), inset 0 0 20px rgba(47, 255, 126, 0.15); }
-}
-@media (prefers-reduced-motion: reduce) {
-  .tour__item--today { animation: none; box-shadow: 0 0 18px rgba(47, 255, 126, 0.4); }
-}
 .tour__date {
   min-width: 60px;
   display: flex;
@@ -534,6 +517,31 @@ ul { list-style: none; }
   font-size: 2rem;
   font-weight: 700;
   color: var(--text);
+}
+/* Show happening today: "HOY" in place of the date, with a soft green glow behind it */
+.tour__today {
+  position: relative;
+  isolation: isolate;
+  font-size: 1.35rem;
+  letter-spacing: 0.08em;
+  color: var(--neon);
+  text-shadow: 0 0 8px rgba(47, 255, 126, 0.7);
+}
+.tour__today::before {
+  content: '';
+  position: absolute;
+  inset: -1.1em -0.9em;
+  z-index: -1;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(110, 255, 140, 0.65), rgba(47, 255, 126, 0.25) 55%, transparent);
+  animation: today-glow 2.4s ease-in-out infinite;
+}
+@keyframes today-glow {
+  0%, 100% { opacity: 0.7;  transform: scale(0.92); }
+  50%      { opacity: 1;    transform: scale(1.1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour__today::before { animation: none; }
 }
 .tour__info { flex: 1; }
 .tour__venue {

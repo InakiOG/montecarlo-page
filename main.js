@@ -94,15 +94,18 @@ async function loadTourDates() {
     slice.forEach(show => {
       const item = document.createElement('div');
       const isToday = parseLocalDate(show.isoDate).toDateString() === new Date().toDateString();
-      item.className = `tour__item reveal${isToday ? ' tour__item--today' : ''}`;
+      item.className = 'tour__item reveal';
       const labelEs = show.buttonLabel ? show.buttonLabel.es : 'Entradas';
       const labelEn = show.buttonLabel ? show.buttonLabel.en : 'Tickets';
       item.innerHTML = `
-        <div class="tour__date">
+        <div class="tour__date">${isToday ? `
+          <span class="tour__today" data-es="HOY" data-en="TODAY">
+            ${currentLang === 'es' ? 'HOY' : 'TODAY'}
+          </span>` : `
           <span class="tour__month" data-es="${show.month.es}" data-en="${show.month.en}">
             ${show.month[currentLang]}
           </span>
-          <span class="tour__day">${show.day}</span>
+          <span class="tour__day">${show.day}</span>`}
         </div>
         <div class="tour__info">
           <p class="tour__venue">${show.venue}</p>
