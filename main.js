@@ -93,7 +93,8 @@ async function loadTourDates() {
 
     slice.forEach(show => {
       const item = document.createElement('div');
-      item.className = 'tour__item reveal';
+      const isToday = parseLocalDate(show.isoDate).toDateString() === new Date().toDateString();
+      item.className = `tour__item reveal${isToday ? ' tour__item--today' : ''}`;
       const labelEs = show.buttonLabel ? show.buttonLabel.es : 'Entradas';
       const labelEn = show.buttonLabel ? show.buttonLabel.en : 'Tickets';
       item.innerHTML = `
