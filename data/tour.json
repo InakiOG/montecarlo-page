@@ -161,6 +161,15 @@
       "city": "Morelia, MICH",
       "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia",
       "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloenMorelia"
+    },
+    {
+      "isoDate": "2026-12-06",
+      "month": { "es": "DIC", "en": "DEC" },
+      "day": "06",
+      "venue": "Hake al Rey",
+      "city": "Guadalajara, JAL",
+      "ticketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloPosadaconIntercambio",
+      "mgTicketsUrl": "https://eventos.ticketnowmexico.com/MonteCarloPosadaconIntercambio"
     }
   ]
 }
